@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "API",
-      "script": "api/dist/server",
+      "script": "learninglocker/api/dist/server",
       "cwd": ".",
       "output": "./logs/api_stdout.log",
       "error": "./logs/api_stderr.log",
@@ -16,7 +16,7 @@
     },
     {
       "name": "UIServer",
-      "script": "ui/dist/server",
+      "script": "learninglocker/ui/dist/server",
       "cwd": ".",
       "output": "./logs/ui_stdout.log",
       "error": "./logs/ui_stderr.log",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Worker",
-      "script": "worker/dist/server",
+      "script": "learninglocker/worker/dist/server",
       "cwd": ".",
       "output": "./logs/worker_stdout.log",
       "error": "./logs/worker_stderr.log",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Scheduler",
-      "script": "cli/dist/scheduler",
+      "script": "learninglocker/cli/dist/scheduler",
       "cwd": ".",
       "output": "./logs/scheduler_stdout.log",
       "error": "./logs/scheduler_stderr.log",
